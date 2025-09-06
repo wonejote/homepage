@@ -1,0 +1,61 @@
+.profilePic{
+     max-width: 250px;   /* tamaño máximo en escritorio */
+  width: 100%;    
+}
+header{
+    display: flex;
+    gap: 6px;
+    background-color: lightskyblue;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 34px;
+    gap: 6px;
+}
+@media (width <= 600px) {
+    header{
+        flex-direction: column;
+    }
+}
+footer{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.screenshot{
+    background-color: brown;
+    width: 250px;
+    height: 150px;
+}
+.card{
+    border: 1px black solid;
+    width: 250px;
+    padding-bottom: 10px;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+    margin-left: auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px ;
+    padding: 20px;
+}
